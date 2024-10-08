@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE6) Path("/media/sf_Projects/Retrocomp/SpecialistMX/specialist-mx-wxeda/source/") File("spec.jic") MfrSpec(OpMask(1) SEC_Device(EPCS4) Child_OpMask(1 1));
+		Device PartName(EP4CE6) Path("reports/") File("spec.jic") MfrSpec(OpMask(1) SEC_Device(EPCS4) Child_OpMask(1 1));
 
 ChainEnd;
 
